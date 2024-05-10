@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background:rgb(245, 214, 156);
+  height: 55px;
+}
+.navbar li{
+  display: inline-block;
+  margin: 7px 18px;
+  
+}
+.navbar a{
+  /* color: #fff; */
+  text-decoration: none;
+  transition: 0.3s;
+
+}
+/* .navbar a:hover{
+  color: rgb(255, 145, 0);
+} */
+.active{
+  color: rgba(255, 68, 0, 0.856);
+}
